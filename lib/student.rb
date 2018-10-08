@@ -41,5 +41,8 @@ attr_reader :id
     end
   end
 
+  def update
+    sql = "UPDATE students SET name = ?, grade = ? WHERE name = ?"
+
 
 end
